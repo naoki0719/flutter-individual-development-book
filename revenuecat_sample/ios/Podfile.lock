@@ -1,0 +1,43 @@
+PODS:
+  - Flutter (1.0.0)
+  - Purchases (3.13.2):
+    - PurchasesCoreSwift (= 3.13.2)
+  - purchases_flutter (3.9.5):
+    - Flutter
+    - PurchasesHybridCommon (= 1.11.2)
+  - PurchasesCoreSwift (3.13.2)
+  - PurchasesHybridCommon (1.11.2):
+    - Purchases (= 3.13.2)
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - purchases_flutter (from `.symlinks/plugins/purchases_flutter/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Purchases
+    - PurchasesCoreSwift
+    - PurchasesHybridCommon
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  purchases_flutter:
+    :path: ".symlinks/plugins/purchases_flutter/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  Purchases: 03200de9288724e77de435000d1828601e6b8e00
+  purchases_flutter: cf2b742f12b7ffef6f618c7f1ba1961e652825b1
+  PurchasesCoreSwift: 2ea4b33e5cece5c8a0751594ef7c6cbfcbd747a9
+  PurchasesHybridCommon: 56ef42d85c3e930d49aff4ac5fa027373d2e1bb8
+  webview_flutter_wkwebview: 005fbd90c888a42c5690919a1527ecc6649e1162
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.2
